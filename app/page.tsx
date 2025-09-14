@@ -54,7 +54,7 @@ export default function Home() {
         </div>
       </nav>
 
-      <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-16">
+      <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-16">
         <header
           id="intro"
           ref={(el) => (sectionsRef.current[0] = el)}
@@ -63,7 +63,7 @@ export default function Home() {
           <div className="grid lg:grid-cols-5 gap-8 sm:gap-12 lg:gap-16 w-full">
             <div className="lg:col-span-3 space-y-4 sm:space-y-6 lg:space-y-8">
               <div className="space-y-2 sm:space-y-3">
-                <div className="text-sm text-muted-foreground font-mono tracking-wider mt-4 sm:mt-0">
+                <div className="text-sm text-muted-foreground font-mono tracking-wider mt-2 sm:mt-0">
                   PORTFOLIO / 2025
                 </div>
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-light tracking-tight">
@@ -72,15 +72,30 @@ export default function Home() {
                   <span className="text-muted-foreground">Srivastava</span>
                 </h1>
               </div>
+              <div className="relative inline-flex items-center gap-2 sm:gap-3 px-4 sm:px-6 py-2 sm:py-3 bg-gradient-to-r from-blue-500/10 to-purple-500/10 border border-blue-500/20 rounded-full backdrop-blur-sm group hover:scale-105 transition-all duration-500 hover:shadow-lg hover:shadow-blue-500/25">
+                {/* Liquid glass effect background */}
+                <div className="absolute inset-0 rounded-full bg-gradient-to-br from-white/5 to-transparent opacity-50 group-hover:opacity-70 transition-opacity duration-300"></div>
 
-              <div className="inline-flex items-center gap-2 sm:gap-3 px-4 sm:px-6 py-2 sm:py-3 bg-blue-500/10 border border-blue-500/20 rounded-full backdrop-blur-sm hover:bg-blue-500/15 transition-colors duration-300">
-                <div className="flex items-center gap-2">
-                  <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
-                  <span className="text-xs sm:text-sm font-medium text-white">2+ Years Experience</span>
+                {/* Animated pulse ring */}
+                <div className="absolute inset-0 rounded-full border border-blue-400/20 animate-pulse group-hover:border-blue-300/40 transition-colors duration-300"></div>
+
+                <div className="flex items-center gap-2 relative z-10">
+                  <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse group-hover:animate-ping transition-all duration-300"></div>
+                  <span className="text-xs sm:text-sm font-medium text-blue-400 group-hover:text-blue-300 transition-colors duration-300">
+                    2+ Years Experience
+                  </span>
                 </div>
-                <div className="w-px h-3 sm:h-4 bg-border"></div>
-                <span className="text-xs sm:text-sm text-white">Full-Stack Developer</span>
+                <div className="w-px h-3 sm:h-4 bg-border relative z-10"></div>
+                <span className="text-xs sm:text-sm text-muted-foreground group-hover:text-foreground transition-colors duration-300 relative z-10">
+                  Full-Stack Developer
+                </span>
+
+                {/* Floating particles effect */}
+                <div className="absolute -top-1 -right-1 w-1 h-1 bg-blue-400 rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-bounce transition-all duration-500 delay-100"></div>
+                <div className="absolute -bottom-1 -left-1 w-1 h-1 bg-purple-400 rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-bounce transition-all duration-500 delay-200"></div>
               </div>
+
+           
 
               <div className="space-y-4 sm:space-y-6 max-w-md">
                 <p className="text-base sm:text-lg lg:text-xl text-muted-foreground leading-relaxed">
@@ -579,19 +594,36 @@ export default function Home() {
           </div>
         </footer>
       </main>
-
       <div className="fixed bottom-6 right-6 z-50">
         <Link
           href="https://www.linkedin.com/messaging/compose/?recipient=prashant-srivastava-7164ba211&message=Hi%20Prashant%2C%20I%20came%20across%20your%20portfolio%20and%20I%27m%20impressed%20with%20your%20work%20in%20React%20Native%20and%20full-stack%20development.%20I%27d%20love%20to%20connect%20and%20discuss%20potential%20opportunities%21"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center justify-center w-14 h-14 rounded-full bg-blue-600 hover:bg-blue-700 text-white shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+          className="group relative flex items-center justify-center w-14 h-14 rounded-full backdrop-blur-xl bg-gradient-to-br from-blue-500/20 via-blue-600/30 to-purple-600/20 border border-white/20 shadow-2xl hover:shadow-blue-500/25 transition-all duration-500 hover:scale-110 hover:rotate-3"
         >
-          <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v11.452zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+          {/* Liquid glass effect background */}
+          <div className="absolute inset-0 rounded-full bg-gradient-to-br from-white/10 to-transparent opacity-50 group-hover:opacity-70 transition-opacity duration-300"></div>
+
+          {/* Animated pulse ring */}
+          <div className="absolute inset-0 rounded-full border-2 border-blue-400/30 animate-ping group-hover:border-blue-300/50"></div>
+
+          {/* LinkedIn icon */}
+          <svg
+            className="w-6 h-6 text-white relative z-10 group-hover:scale-110 transition-transform duration-300"
+            fill="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
           </svg>
+
+          {/* Tooltip */}
+          <div className="absolute bottom-full right-0 mb-2 px-3 py-2 bg-black/80 text-white text-xs rounded-lg backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap pointer-events-none">
+            Connect on LinkedIn
+            <div className="absolute top-full right-4 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-black/80"></div>
+          </div>
         </Link>
       </div>
+
     </div>
   )
 }
