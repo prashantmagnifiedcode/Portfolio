@@ -1,0 +1,86 @@
+PRASHANT SRIVASTAVA
+Software Engineer
+House no.361 Kapashera New Delhi
+prashantsrivastava5116@gmail.com
+7827677523
+https://www.linkedin.com/in/prashant-srivastava-7164ba211
+https://github.com/prashantmagnifiedcode
+
+WORK EXPERIENCE
+
+React Native & React JS Developer
+LogEdgeSystems PVT .LTD (Pristine Group)
+Aug 2023 — Present
+
+• Developed cross-platform CRM app using React Native for iOS and Android
+• Built real-time analytics dashboard to track leads (won, lost, in-progress)
+• Designed custom calendar features (date range, quarter year, month, years, blocked dates)
+• Implemented role-based access control (RBAC) system
+• Integrated scalable backend APIs for real-time data and email notifications
+• Created inspection app for logistics container inspection
+• Implemented serverless PDF generation using Puppeteer
+• Automated PDF upload to Google Cloud Bucket
+
+MERN Developer
+Spontomtech Private Limited
+6-Month Internship
+
+• Worked on Hospital Application with billing, work track, admin features
+• Developed comprehensive healthcare management system
+• Built multiple modules for hospital operations
+
+MERN Developer (Intern)
+Hubx Commercial Ventures Pvt. Ltd.
+3-Month Internship
+
+• Designed Hubx website with integrated Medium Blog functionality
+• Integrated Google Sheets for data management and synchronization
+• Developed Registration Form with advanced validation features
+• Tools Used: UIKIT CSS Framework, Express, Node.js, React, Material-UI
+
+TECHNICAL SKILLS
+
+Programming Languages: C, C++, Python, JavaScript, Solidity
+Web Development: HTML, CSS, JSON, Node.js, RESTful APIs, Tailwind CSS, Bootstrap, UIKIT, MUI
+Databases: MySQL, MongoDB, Firebase
+Operating Systems: Windows, Ubuntu
+Frameworks: React JS, React Native
+Tools: Docker, Puppeteer, Google Cloud Platform (GCP)
+Mobile Development: Cross-platform Android & iOS app development using React Native
+
+FEATURED PROJECTS
+
+CRM Application
+Cross-platform CRM app with real-time analytics dashboard, custom calendar features, and role-based access control system.
+
+Container Inspection App
+Logistics inspection app for container gate-in/gate-out with serverless PDF generation and Google Cloud integration.
+
+Data Grid Panel (MUI)
+Custom data grid with advanced functionalities including pagination, cell editing, error handling, and three specialized variants.
+
+Remote Working Platform (MERN STACK)
+Platform with role-based access for Admin, Supervisor, Recruiter, and Employee with comprehensive job management tools.
+
+EDUCATION
+
+Bachelor of Technology (B.Tech) in Information Technology (IT)
+Dronacharya College of Engineering, Gurugram (Affiliated to MDU Rohtak)
+Graduation Year: 2024
+Average SGPA: 9.1
+
+Senior Secondary (Class XII - PCM)
+Rao Ganga Ram Sr. Sec. Public School (Affiliated to CBSE)
+Percentage: 87%
+
+Secondary School (Class X)
+Rao Ganga Ram Sr. Sec. Public School (Affiliated to CBSE)
+Percentage: 80%
+
+ACHIEVEMENTS
+
+• 1st Prize at Techpreksha 2.0 (Organized by GFG)
+• 2nd Round at Techgium - Decentralized Healthcare System (using EHR as NFTs)
+• Top 12 Teams at Rajasthan Hackathon (Powered by PW Skills)
+• 4th Position at Hack-o-Relay Hackathon (Organized by GDSC DCE)
+• Participated in Tryst (IIT Delhi), Adobe Design Hackathon, Codemon Coding Contest
