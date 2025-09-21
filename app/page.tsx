@@ -63,7 +63,7 @@ export default function Home() {
           <div className="grid lg:grid-cols-5 gap-8 sm:gap-12 lg:gap-16 w-full">
             <div className="lg:col-span-3 space-y-4 sm:space-y-6 lg:space-y-8">
               <div className="space-y-2 sm:space-y-3">
-                <div className="text-sm text-muted-foreground font-mono tracking-wider mt-2 sm:mt-0">
+                <div className="text-sm text-muted-foreground font-mono tracking-wider mt-4 sm:mt-0">
                   PORTFOLIO / 2025
                 </div>
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-light tracking-tight">
@@ -559,7 +559,6 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-4 sm:gap-6 lg:gap-8">
             <div className="space-y-2">
               <div className="text-sm text-muted-foreground">© 2025 Prashant Srivastava. All rights reserved.</div>
-              <div className="text-xs text-muted-foreground">Built with v0.dev by Prashant Srivastava</div>
             </div>
 
             <div className="flex items-center gap-4">
@@ -624,6 +623,18 @@ export default function Home() {
         </Link>
       </div>
 
+      <div className="fixed bottom-6 right-6 z-50">
+        <Link
+          href="https://www.linkedin.com/messaging/compose/?recipient=prashant-srivastava-7164ba211&message=Hi%20Prashant%2C%20I%20came%20across%20your%20portfolio%20and%20I%27m%20impressed%20with%20your%20work%20in%20React%20Native%20and%20full-stack%20development.%20I%27d%20love%20to%20connect%20and%20discuss%20potential%20opportunities%21"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-center w-14 h-14 rounded-full bg-blue-600 hover:bg-blue-700 text-white shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+        >
+          <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v11.452zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+          </svg>
+        </Link>
+      </div>
     </div>
   )
 }
